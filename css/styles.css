@@ -8,6 +8,12 @@ body{
     background: url(../img/bgp.png);   
 }
 
+/* Gallery */
+.gallery {
+    height: 1000px;
+    position: relative;
+}
+
 /* Layout */
 
 /* Typography */
