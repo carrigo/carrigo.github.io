@@ -1,0 +1,25 @@
+body {
+    background: url("../img/bgp2.png");
+}
+
+h1 {   
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 0 20px 0 0;
+}
