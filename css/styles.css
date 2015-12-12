@@ -5,6 +5,10 @@ img{
     margin: 0 auto;
 }
 
+.indexphoto {
+    display: block;
+}
+
 body{
     background: url(../img/bgp.png);   
 }
@@ -116,4 +120,14 @@ header nav {
 
 hover:header a {
     text-decoration: underline;
+}
+
+.trailer {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.trailer h2 {
+    display: inline;
+    padding: 0 8% 0 7%; 
 }
