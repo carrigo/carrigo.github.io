@@ -46,3 +46,7 @@ header a {
 header nav {
     margin: 0 auto;
 }
+
+hover:header a {
+    text-decoration: underline;
+}

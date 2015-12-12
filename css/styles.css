@@ -103,5 +103,17 @@ header nav {
 
 .aboutlists li img {
     display: inline;
-    max-width: 10px;
+    width: 30px;
+}
+
+.controls img {
+    margin: 10px;
+}
+
+.gallery img {
+    width: 50%;
+}
+
+hover:header a {
+    text-decoration: underline;
 }
