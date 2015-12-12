@@ -1,7 +1,8 @@
 /* Global */
 
 img{
-    width: 50%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 body{
@@ -19,17 +20,25 @@ body{
 /* Typography */
 
 h1{
-    color: rgba(100, 100, 100, .6);
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+h2{
+    color: white;
+    font-size: 2em;
 }
     
 p{
     background: red;
     border: 10px double black;
-    width: 200px;
+    width: 50%;
     padding: 20px;
-    margin: 10px;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
 /* Navigation */
@@ -45,3 +54,54 @@ li{
     display: inline
 }
 
+header {
+    width: 90%;
+    background: rgba(255,0,0,0.5);
+    margin: 0 auto;
+}
+
+header ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px 60px 20px 0;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+header nav {
+    margin: 0 auto;
+}
+
+.hypo {
+    display: inline;
+}
+
+.mov li{
+    display: block;
+    font-size: 2em;
+    color: white;
+}
+
+.mov a {
+    display: inline;
+}
+
+.aboutlists {
+    width: 30%;
+}
+
+.aboutlists li img {
+    display: inline;
+    max-width: 10px;
+}

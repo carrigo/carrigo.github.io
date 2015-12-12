@@ -1,9 +1,13 @@
 body {
-    background: url("../img/bgp2.png");
+    background: url("../img/bgp2.png"); 
 }
 
 h1 {   
     font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
 }
 
 ul {
@@ -14,12 +18,31 @@ ul {
     display: inline-block;
 }
 
+header {
+    width: 90%;
+    background: rgba(255,0,0,0.5);
+    margin: 0 auto;
+}
+
 header ul {
     list-style: none;
+    text-decoration: none;
 }
 
 header li {
     display: inline-block;
     font-size: 2em;
-    padding: 0 20px 0 0;
+    padding: 20px 60px 20px 0;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+header nav {
+    margin: 0 auto;
 }
